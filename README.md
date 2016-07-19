@@ -1,5 +1,5 @@
 # EPIC450k_repro
-### Reproducible analysis of the manuscript _Preprocessing and integration of the Illumina HumanMethylationEPIC array with the Illumina HumanMethylation450 array_
+### Reproducible analysis of the manuscript _Single-sample preprocessing and multi-platform integration of Illumina HumanMethylationEPIC and HumanMethylation450 arrays_
 --------
 
 **Authors**: Jean-Philippe Fortin, Tim Triche and Kasper Daniel Hansen
