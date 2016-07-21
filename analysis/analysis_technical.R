@@ -46,7 +46,7 @@ col_quantile <- "deepskyblue3"
 ##########################################
 ##########################################
 cols <- c(col_raw, col_illumina, col_swan, col_quantile, col_noob, col_funnorm)
-labels <- c("Raw", "Illumina", "SWAN", "Quantile", "noob", "Funnorm")
+labels <- c("Raw", "Illumina", "SWAN", "Quantile", "ssNoob", "Funnorm")
 ylab="Probe variances"
 
 pdf("../figures/probes_variances.pdf", width=9, height=6)
