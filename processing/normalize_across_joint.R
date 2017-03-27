@@ -1,9 +1,9 @@
 source("../scripts/utils.R")
 
-extdir <- "../extdata/epic_work"
+extdir <- "../data_processed/"
 load(file.path(extdir, "rgset_epic.rda"))
 load(file.path(extdir, "rgset_450k.rda"))
-rgset_combined <- combineArrayTypes(rgset_450k, rgset_epic)
+rgset_combined <- combineArrays(rgset_450k, rgset_epic)
 
 object_raw  <- preprocessRaw(rgset_combined)
 object_noob <- preprocessNoob(rgset_combined)

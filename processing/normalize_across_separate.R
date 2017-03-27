@@ -1,6 +1,6 @@
 source("../scripts/utils.R")
 
-extdir <- "../extdata/epic_work"
+extdir <- "../data_processed/"
 load(file.path(extdir, "rgset_epic.rda"))
 load(file.path(extdir, "rgset_450k.rda"))
 
@@ -35,7 +35,7 @@ objects_450k <- list(raw=m450k_object_raw,
 )
 
 objects_combined <- pblapply(1:6, function(i){
-	combineArrayTypes(objects_450k[[i]], objects_epic[[i]])
+	combineArrays(objects_450k[[i]], objects_epic[[i]])
 })
 
 betas <- pblapply(objects_combined, getBeta)

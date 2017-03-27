@@ -5,7 +5,8 @@
 **Authors**: Jean-Philippe Fortin, Tim Triche and Kasper Daniel Hansen
 
 
-- The folder `scripts` contains an R script to load customized functions as well as packages used for the analysis. It contains also a shell script to download the data used in the paper.
-- The folder `processing` contains the scripts to preprocess the data in R, and normalize the data with the different preprocessing functions.
-- The folder `analysis` contains the scripts to produce the figures in the paper.
-- The folder `figures` contains the pdfs of the figures presented in the paper.
+- Step 1: download raw data using the script `scripts/download.sh`. The raw IDAT files will be saved into the `data_raw` folder.
+- Step 2: process the data using the script `processing/preprocess.R`. The processed data will be saved into the `data_processed` folder.
+- Step 3: normalize the data with the 3 normalization scripts contained in the `processing` folder.
+- Step 4: perform the analyses using the scripts contained in the `analysis` folder. The figures will be saved in the folder `figures`.
+

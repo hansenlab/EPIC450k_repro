@@ -1,6 +1,6 @@
 source("../scripts/utils.R")
 
-extdir <- "../extdata/epic_work"
+extdir <- "../data_processed/"
 load(file.path(extdir, "rgset_epic.rda"))
 
 

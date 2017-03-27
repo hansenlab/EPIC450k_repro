@@ -3,7 +3,7 @@ library(minfiDataEPIC)
 library(matrixStats)
 library(pbapply)
 source("../scripts/utils.R")
-load("../extdata/epic_work/betas_only_epic.rda")
+load("../data_processed/betas_only_epic.rda")
 
 
 ann <- getAnnotation(RGsetEPIC)

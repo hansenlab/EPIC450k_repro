@@ -1,5 +1,5 @@
 source("../scripts/utils.R")
-extdir <- "../extdata/epic_work"
+extdir <- "../data_processed/"
 load(file.path(extdir, "rgset_450k.rda"))
 library(FlowSorted.Blood.450k)
 blood <- rgset_450k[, 257:276]

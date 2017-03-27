@@ -19,7 +19,7 @@ getOs <- function(betas){
 }
 
 
-extdir <- "../extdata/epic_work"
+extdir <- "../data_processed/"
 load(file.path(extdir, "betas_combined_separate_normalization.rda"))
 betas_separate <- betas
 load(file.path(extdir, "betas_combined.rda"))
